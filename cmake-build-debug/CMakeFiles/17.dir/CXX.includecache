@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/17 goto语句.cpp
+iostream
+/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/iostream
+

@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.21)
+project(04_STL)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(01 "01 模板基本语法.cpp")
+add_executable(02 "02 模板案例-排序.cpp")
+add_executable(03 "03 模板函数调用规则.cpp")
+add_executable(04 "04 特殊数据类型模板.cpp")
+add_executable(05 "05 类模板基本语法.cpp")
+add_executable(06 "06 类模板默认参数.cpp")
+add_executable(07 "07 类模板对象做函数参数.cpp")
+add_executable(08 "08 类模板继承.cpp")
+add_executable(09 "09 类模板成员函数的类外实现.cpp")
+add_executable(10 "10 person.cpp")

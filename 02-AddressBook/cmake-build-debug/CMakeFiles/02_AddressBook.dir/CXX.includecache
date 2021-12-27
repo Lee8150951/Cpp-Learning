@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jacoblee/Documents/CLionProjects/C++Learning/02-AddressBook/源文件/main.cpp
+iostream
+-
+string
+/Users/jacoblee/Documents/CLionProjects/C++Learning/02-AddressBook/源文件/string
+

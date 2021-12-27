@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jacoblee/Documents/CLionProjects/C++Learning/03-Core/31 纯虚函数与抽象类.cpp
+iostream
+/Users/jacoblee/Documents/CLionProjects/C++Learning/03-Core/iostream
+

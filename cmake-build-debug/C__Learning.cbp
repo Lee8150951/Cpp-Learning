@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C__Learning"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 32"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 32/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="31">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/31" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 31"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="31/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/31" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 31/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="30">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/30" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 30"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="30/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/30" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 30/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="29">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/29" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 29"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="29/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/29" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 29/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="26">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/26" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 26"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="26/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/26" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 26/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="28">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/28" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 28"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="28/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/28" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 28/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="25">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/25" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 25"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="25/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/25" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 25/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="17">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 17"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="17/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 17/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="16">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 16"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="16/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 16/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="22">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 22"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="22/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 22/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="24">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/24" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 24"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="24/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/24" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 24/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="21">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 21"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="21/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 21/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="18">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 18"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="18/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 18/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="14">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 14"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="14/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 14/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="08">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 08"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="08/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 08/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="19">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 19"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="19/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 19/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 11"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 11/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="13">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 13"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="13/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 13/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="15">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 15"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="15/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 15/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 10"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 10/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="23">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 23"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="23/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 23/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="12">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 12"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="12/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 12/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="20">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 20"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="20/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 20/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="07">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 07"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="07/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 07/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="27">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/27" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 27"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="27/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/27" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 27/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 06"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 06/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="09">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/09" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 09"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="09/fast">
+				<Option output="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/09" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 09/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jacoblee/Documents/CLionProjects/C++Learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/01 变量.cpp">
+			<Option target="01"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/02 常量.cpp">
+			<Option target="02"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/03 整型.cpp">
+			<Option target="03"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/04 浮点型.cpp">
+			<Option target="04"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/05 字符型.cpp">
+			<Option target="05"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/06 字符串型.cpp">
+			<Option target="06"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/07 布尔型.cpp">
+			<Option target="07"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/08 输入.cpp">
+			<Option target="08"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/09 运算符.cpp">
+			<Option target="09"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/10 if语句.cpp">
+			<Option target="10"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/11 三目运算符.cpp">
+			<Option target="11"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/12 switch语句.cpp">
+			<Option target="12"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/13 do while语句.cpp">
+			<Option target="13"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/14 for语句.cpp">
+			<Option target="14"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/15 嵌套循环.cpp">
+			<Option target="15"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/16 continue语句.cpp">
+			<Option target="16"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/17 goto语句.cpp">
+			<Option target="17"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/18 array元素反转.cpp">
+			<Option target="18"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/19 array冒泡排序.cpp">
+			<Option target="19"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/20 array二维数组.cpp">
+			<Option target="20"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/21 函数demo.cpp">
+			<Option target="21"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/22 函数的分文件书写.cpp">
+			<Option target="22"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/22-head.h">
+			<Option target="22"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/22-source.cpp">
+			<Option target="22"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/23 指针的定义.cpp">
+			<Option target="23"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/24 const指针.cpp">
+			<Option target="24"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/25 数组指针.cpp">
+			<Option target="25"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/26 函数指针.cpp">
+			<Option target="26"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/27 结构体定义.cpp">
+			<Option target="27"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/28 结构体指针.cpp">
+			<Option target="28"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/29 结构体数组.cpp">
+			<Option target="29"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/30 结构体const.cpp">
+			<Option target="30"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/03-Core/01 代码区与全局区.cpp">
+			<Option target="31"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/03-Core/02 new和delete.cpp">
+			<Option target="32"/>
+		</Unit>
+		<Unit filename="/Users/jacoblee/Documents/CLionProjects/C++Learning/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

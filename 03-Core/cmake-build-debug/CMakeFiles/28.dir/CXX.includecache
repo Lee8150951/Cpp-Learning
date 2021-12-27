@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jacoblee/Documents/CLionProjects/C++Learning/03-Core/28 菱形继承.cpp
+iostream
+/Users/jacoblee/Documents/CLionProjects/C++Learning/03-Core/iostream
+

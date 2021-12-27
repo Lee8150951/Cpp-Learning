@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jacoblee/Documents/CLionProjects/C++Learning/03-Core/12 拷贝构造函数的使用.cpp
+iostream
+/Users/jacoblee/Documents/CLionProjects/C++Learning/03-Core/iostream
+string
+/Users/jacoblee/Documents/CLionProjects/C++Learning/03-Core/string
+

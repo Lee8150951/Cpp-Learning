@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/22-head.h
+iostream
+/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/iostream
+
+/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/22-source.cpp
+iostream
+/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/iostream
+22-head.h
+/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/22-head.h
+

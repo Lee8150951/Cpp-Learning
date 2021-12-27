@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jacoblee/Documents/CLionProjects/C++Learning/03-Core/33 写文件.cpp
+iostream
+/Users/jacoblee/Documents/CLionProjects/C++Learning/03-Core/iostream
+fstream
+/Users/jacoblee/Documents/CLionProjects/C++Learning/03-Core/fstream
+

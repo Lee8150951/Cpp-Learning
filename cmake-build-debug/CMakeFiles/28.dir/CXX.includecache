@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/28 结构体数组.cpp
+iostream
+/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/iostream
+string
+/Users/jacoblee/Documents/CLionProjects/C++Learning/01-Basic/string
+
