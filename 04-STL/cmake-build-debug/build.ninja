@@ -42,17 +42,6 @@ include CMakeFiles/rules.ninja
 cmake_ninja_workdir = /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/cmake-build-debug/
 
 #############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
-
-#############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
@@ -62,6 +51,606 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 49
+
+
+#############################################
+# Order-only phony target for 49
+
+build cmake_object_order_depends_target_49: phony || CMakeFiles/49.dir
+
+build CMakeFiles/49.dir/49_集合算法.cpp.o: CXX_COMPILER__49_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/49$ 集合算法.cpp || cmake_object_order_depends_target_49
+  DEP_FILE = CMakeFiles/49.dir/49_集合算法.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/49.dir
+  OBJECT_FILE_DIR = CMakeFiles/49.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 49
+
+
+#############################################
+# Link the executable 49
+
+build 49: CXX_EXECUTABLE_LINKER__49_Debug CMakeFiles/49.dir/49_集合算法.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/49.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 49
+  TARGET_PDB = 49.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 45
+
+
+#############################################
+# Order-only phony target for 45
+
+build cmake_object_order_depends_target_45: phony || CMakeFiles/45.dir
+
+build CMakeFiles/45.dir/45_排序算法-merge.cpp.o: CXX_COMPILER__45_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/45$ 排序算法-merge.cpp || cmake_object_order_depends_target_45
+  DEP_FILE = CMakeFiles/45.dir/45_排序算法-merge.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/45.dir
+  OBJECT_FILE_DIR = CMakeFiles/45.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 45
+
+
+#############################################
+# Link the executable 45
+
+build 45: CXX_EXECUTABLE_LINKER__45_Debug CMakeFiles/45.dir/45_排序算法-merge.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/45.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 45
+  TARGET_PDB = 45.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 15
+
+
+#############################################
+# Order-only phony target for 15
+
+build cmake_object_order_depends_target_15: phony || CMakeFiles/15.dir
+
+build CMakeFiles/15.dir/15_vector容量管理.cpp.o: CXX_COMPILER__15_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/15$ vector容量管理.cpp || cmake_object_order_depends_target_15
+  DEP_FILE = CMakeFiles/15.dir/15_vector容量管理.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/15.dir
+  OBJECT_FILE_DIR = CMakeFiles/15.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 15
+
+
+#############################################
+# Link the executable 15
+
+build 15: CXX_EXECUTABLE_LINKER__15_Debug CMakeFiles/15.dir/15_vector容量管理.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/15.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 15
+  TARGET_PDB = 15.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 40
+
+
+#############################################
+# Order-only phony target for 40
+
+build cmake_object_order_depends_target_40: phony || CMakeFiles/40.dir
+
+build CMakeFiles/40.dir/40_查找算法-binary_search.cpp.o: CXX_COMPILER__40_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/40$ 查找算法-binary_search.cpp || cmake_object_order_depends_target_40
+  DEP_FILE = CMakeFiles/40.dir/40_查找算法-binary_search.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/40.dir
+  OBJECT_FILE_DIR = CMakeFiles/40.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 40
+
+
+#############################################
+# Link the executable 40
+
+build 40: CXX_EXECUTABLE_LINKER__40_Debug CMakeFiles/40.dir/40_查找算法-binary_search.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/40.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 40
+  TARGET_PDB = 40.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 46
+
+
+#############################################
+# Order-only phony target for 46
+
+build cmake_object_order_depends_target_46: phony || CMakeFiles/46.dir
+
+build CMakeFiles/46.dir/46_排序算法-reverse.cpp.o: CXX_COMPILER__46_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/46$ 排序算法-reverse.cpp || cmake_object_order_depends_target_46
+  DEP_FILE = CMakeFiles/46.dir/46_排序算法-reverse.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/46.dir
+  OBJECT_FILE_DIR = CMakeFiles/46.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 46
+
+
+#############################################
+# Link the executable 46
+
+build 46: CXX_EXECUTABLE_LINKER__46_Debug CMakeFiles/46.dir/46_排序算法-reverse.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/46.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 46
+  TARGET_PDB = 46.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 44
+
+
+#############################################
+# Order-only phony target for 44
+
+build cmake_object_order_depends_target_44: phony || CMakeFiles/44.dir
+
+build CMakeFiles/44.dir/44_排序算法-random_shuffle.cpp.o: CXX_COMPILER__44_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/44$ 排序算法-random_shuffle.cpp || cmake_object_order_depends_target_44
+  DEP_FILE = CMakeFiles/44.dir/44_排序算法-random_shuffle.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/44.dir
+  OBJECT_FILE_DIR = CMakeFiles/44.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 44
+
+
+#############################################
+# Link the executable 44
+
+build 44: CXX_EXECUTABLE_LINKER__44_Debug CMakeFiles/44.dir/44_排序算法-random_shuffle.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/44.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 44
+  TARGET_PDB = 44.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 39
+
+
+#############################################
+# Order-only phony target for 39
+
+build cmake_object_order_depends_target_39: phony || CMakeFiles/39.dir
+
+build CMakeFiles/39.dir/39_查找算法-adjacent_find.cpp.o: CXX_COMPILER__39_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/39$ 查找算法-adjacent_find.cpp || cmake_object_order_depends_target_39
+  DEP_FILE = CMakeFiles/39.dir/39_查找算法-adjacent_find.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/39.dir
+  OBJECT_FILE_DIR = CMakeFiles/39.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 39
+
+
+#############################################
+# Link the executable 39
+
+build 39: CXX_EXECUTABLE_LINKER__39_Debug CMakeFiles/39.dir/39_查找算法-adjacent_find.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/39.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 39
+  TARGET_PDB = 39.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 29
+
+
+#############################################
+# Order-only phony target for 29
+
+build cmake_object_order_depends_target_29: phony || CMakeFiles/29.dir
+
+build CMakeFiles/29.dir/29_map初始化.cpp.o: CXX_COMPILER__29_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/29$ map初始化.cpp || cmake_object_order_depends_target_29
+  DEP_FILE = CMakeFiles/29.dir/29_map初始化.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/29.dir
+  OBJECT_FILE_DIR = CMakeFiles/29.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 29
+
+
+#############################################
+# Link the executable 29
+
+build 29: CXX_EXECUTABLE_LINKER__29_Debug CMakeFiles/29.dir/29_map初始化.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/29.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 29
+  TARGET_PDB = 29.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 43
+
+
+#############################################
+# Order-only phony target for 43
+
+build cmake_object_order_depends_target_43: phony || CMakeFiles/43.dir
+
+build CMakeFiles/43.dir/43_排序算法-sort.cpp.o: CXX_COMPILER__43_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/43$ 排序算法-sort.cpp || cmake_object_order_depends_target_43
+  DEP_FILE = CMakeFiles/43.dir/43_排序算法-sort.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/43.dir
+  OBJECT_FILE_DIR = CMakeFiles/43.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 43
+
+
+#############################################
+# Link the executable 43
+
+build 43: CXX_EXECUTABLE_LINKER__43_Debug CMakeFiles/43.dir/43_排序算法-sort.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/43.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 43
+  TARGET_PDB = 43.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 26
+
+
+#############################################
+# Order-only phony target for 26
+
+build cmake_object_order_depends_target_26: phony || CMakeFiles/26.dir
+
+build CMakeFiles/26.dir/26_set插入和删除.cpp.o: CXX_COMPILER__26_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/26$ set插入和删除.cpp || cmake_object_order_depends_target_26
+  DEP_FILE = CMakeFiles/26.dir/26_set插入和删除.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/26.dir
+  OBJECT_FILE_DIR = CMakeFiles/26.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 26
+
+
+#############################################
+# Link the executable 26
+
+build 26: CXX_EXECUTABLE_LINKER__26_Debug CMakeFiles/26.dir/26_set插入和删除.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/26.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 26
+  TARGET_PDB = 26.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 41
+
+
+#############################################
+# Order-only phony target for 41
+
+build cmake_object_order_depends_target_41: phony || CMakeFiles/41.dir
+
+build CMakeFiles/41.dir/41_查找算法-count.cpp.o: CXX_COMPILER__41_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/41$ 查找算法-count.cpp || cmake_object_order_depends_target_41
+  DEP_FILE = CMakeFiles/41.dir/41_查找算法-count.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/41.dir
+  OBJECT_FILE_DIR = CMakeFiles/41.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 41
+
+
+#############################################
+# Link the executable 41
+
+build 41: CXX_EXECUTABLE_LINKER__41_Debug CMakeFiles/41.dir/41_查找算法-count.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/41.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 41
+  TARGET_PDB = 41.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 17
+
+
+#############################################
+# Order-only phony target for 17
+
+build cmake_object_order_depends_target_17: phony || CMakeFiles/17.dir
+
+build CMakeFiles/17.dir/17_deque初始化.cpp.o: CXX_COMPILER__17_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/17$ deque初始化.cpp || cmake_object_order_depends_target_17
+  DEP_FILE = CMakeFiles/17.dir/17_deque初始化.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/17.dir
+  OBJECT_FILE_DIR = CMakeFiles/17.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 17
+
+
+#############################################
+# Link the executable 17
+
+build 17: CXX_EXECUTABLE_LINKER__17_Debug CMakeFiles/17.dir/17_deque初始化.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/17.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 17
+  TARGET_PDB = 17.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 35
+
+
+#############################################
+# Order-only phony target for 35
+
+build cmake_object_order_depends_target_35: phony || CMakeFiles/35.dir
+
+build CMakeFiles/35.dir/35_算数仿函数.cpp.o: CXX_COMPILER__35_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/35$ 算数仿函数.cpp || cmake_object_order_depends_target_35
+  DEP_FILE = CMakeFiles/35.dir/35_算数仿函数.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/35.dir
+  OBJECT_FILE_DIR = CMakeFiles/35.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 35
+
+
+#############################################
+# Link the executable 35
+
+build 35: CXX_EXECUTABLE_LINKER__35_Debug CMakeFiles/35.dir/35_算数仿函数.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/35.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 35
+  TARGET_PDB = 35.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 47
+
+
+#############################################
+# Order-only phony target for 47
+
+build cmake_object_order_depends_target_47: phony || CMakeFiles/47.dir
+
+build CMakeFiles/47.dir/47_拷贝算法.cpp.o: CXX_COMPILER__47_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/47$ 拷贝算法.cpp || cmake_object_order_depends_target_47
+  DEP_FILE = CMakeFiles/47.dir/47_拷贝算法.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/47.dir
+  OBJECT_FILE_DIR = CMakeFiles/47.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 47
+
+
+#############################################
+# Link the executable 47
+
+build 47: CXX_EXECUTABLE_LINKER__47_Debug CMakeFiles/47.dir/47_拷贝算法.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/47.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 47
+  TARGET_PDB = 47.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 34
+
+
+#############################################
+# Order-only phony target for 34
+
+build cmake_object_order_depends_target_34: phony || CMakeFiles/34.dir
+
+build CMakeFiles/34.dir/34_二元谓词.cpp.o: CXX_COMPILER__34_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/34$ 二元谓词.cpp || cmake_object_order_depends_target_34
+  DEP_FILE = CMakeFiles/34.dir/34_二元谓词.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/34.dir
+  OBJECT_FILE_DIR = CMakeFiles/34.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 34
+
+
+#############################################
+# Link the executable 34
+
+build 34: CXX_EXECUTABLE_LINKER__34_Debug CMakeFiles/34.dir/34_二元谓词.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/34.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 34
+  TARGET_PDB = 34.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 36
+
+
+#############################################
+# Order-only phony target for 36
+
+build cmake_object_order_depends_target_36: phony || CMakeFiles/36.dir
+
+build CMakeFiles/36.dir/36_遍历算法.cpp.o: CXX_COMPILER__36_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/36$ 遍历算法.cpp || cmake_object_order_depends_target_36
+  DEP_FILE = CMakeFiles/36.dir/36_遍历算法.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/36.dir
+  OBJECT_FILE_DIR = CMakeFiles/36.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 36
+
+
+#############################################
+# Link the executable 36
+
+build 36: CXX_EXECUTABLE_LINKER__36_Debug CMakeFiles/36.dir/36_遍历算法.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/36.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 36
+  TARGET_PDB = 36.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 22
+
+
+#############################################
+# Order-only phony target for 22
+
+build cmake_object_order_depends_target_22: phony || CMakeFiles/22.dir
+
+build CMakeFiles/22.dir/22_list赋值.cpp.o: CXX_COMPILER__22_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/22$ list赋值.cpp || cmake_object_order_depends_target_22
+  DEP_FILE = CMakeFiles/22.dir/22_list赋值.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/22.dir
+  OBJECT_FILE_DIR = CMakeFiles/22.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 22
+
+
+#############################################
+# Link the executable 22
+
+build 22: CXX_EXECUTABLE_LINKER__22_Debug CMakeFiles/22.dir/22_list赋值.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/22.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 22
+  TARGET_PDB = 22.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 33
+
+
+#############################################
+# Order-only phony target for 33
+
+build cmake_object_order_depends_target_33: phony || CMakeFiles/33.dir
+
+build CMakeFiles/33.dir/33_一元谓词.cpp.o: CXX_COMPILER__33_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/33$ 一元谓词.cpp || cmake_object_order_depends_target_33
+  DEP_FILE = CMakeFiles/33.dir/33_一元谓词.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/33.dir
+  OBJECT_FILE_DIR = CMakeFiles/33.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 33
+
+
+#############################################
+# Link the executable 33
+
+build 33: CXX_EXECUTABLE_LINKER__33_Debug CMakeFiles/33.dir/33_一元谓词.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/33.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 33
+  TARGET_PDB = 33.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 32
+
+
+#############################################
+# Order-only phony target for 32
+
+build cmake_object_order_depends_target_32: phony || CMakeFiles/32.dir
+
+build CMakeFiles/32.dir/32_仿函数.cpp.o: CXX_COMPILER__32_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/32$ 仿函数.cpp || cmake_object_order_depends_target_32
+  DEP_FILE = CMakeFiles/32.dir/32_仿函数.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/32.dir
+  OBJECT_FILE_DIR = CMakeFiles/32.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 32
+
+
+#############################################
+# Link the executable 32
+
+build 32: CXX_EXECUTABLE_LINKER__32_Debug CMakeFiles/32.dir/32_仿函数.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/32.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 32
+  TARGET_PDB = 32.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 31
@@ -126,66 +715,35 @@ build 30: CXX_EXECUTABLE_LINKER__30_Debug CMakeFiles/30.dir/30_map插入删除.c
   TARGET_PDB = 30.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 29
+# Object build statements for EXECUTABLE target 10
 
 
 #############################################
-# Order-only phony target for 29
+# Order-only phony target for 10
 
-build cmake_object_order_depends_target_29: phony || CMakeFiles/29.dir
+build cmake_object_order_depends_target_10: phony || CMakeFiles/10.dir
 
-build CMakeFiles/29.dir/29_map初始化.cpp.o: CXX_COMPILER__29_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/29$ map初始化.cpp || cmake_object_order_depends_target_29
-  DEP_FILE = CMakeFiles/29.dir/29_map初始化.cpp.o.d
+build CMakeFiles/10.dir/10_person.cpp.o: CXX_COMPILER__10_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/10$ person.cpp || cmake_object_order_depends_target_10
+  DEP_FILE = CMakeFiles/10.dir/10_person.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/29.dir
-  OBJECT_FILE_DIR = CMakeFiles/29.dir
+  OBJECT_DIR = CMakeFiles/10.dir
+  OBJECT_FILE_DIR = CMakeFiles/10.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 29
+# Link build statements for EXECUTABLE target 10
 
 
 #############################################
-# Link the executable 29
+# Link the executable 10
 
-build 29: CXX_EXECUTABLE_LINKER__29_Debug CMakeFiles/29.dir/29_map初始化.cpp.o
+build 10: CXX_EXECUTABLE_LINKER__10_Debug CMakeFiles/10.dir/10_person.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/29.dir
+  OBJECT_DIR = CMakeFiles/10.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 29
-  TARGET_PDB = 29.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 26
-
-
-#############################################
-# Order-only phony target for 26
-
-build cmake_object_order_depends_target_26: phony || CMakeFiles/26.dir
-
-build CMakeFiles/26.dir/26_set插入和删除.cpp.o: CXX_COMPILER__26_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/26$ set插入和删除.cpp || cmake_object_order_depends_target_26
-  DEP_FILE = CMakeFiles/26.dir/26_set插入和删除.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/26.dir
-  OBJECT_FILE_DIR = CMakeFiles/26.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 26
-
-
-#############################################
-# Link the executable 26
-
-build 26: CXX_EXECUTABLE_LINKER__26_Debug CMakeFiles/26.dir/26_set插入和删除.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/26.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 26
-  TARGET_PDB = 26.dbg
+  TARGET_FILE = 10
+  TARGET_PDB = 10.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 28
@@ -219,6 +777,37 @@ build 28: CXX_EXECUTABLE_LINKER__28_Debug CMakeFiles/28.dir/28_pair队组.cpp.o
   TARGET_PDB = 28.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 07
+
+
+#############################################
+# Order-only phony target for 07
+
+build cmake_object_order_depends_target_07: phony || CMakeFiles/07.dir
+
+build CMakeFiles/07.dir/07_类模板对象做函数参数.cpp.o: CXX_COMPILER__07_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/07$ 类模板对象做函数参数.cpp || cmake_object_order_depends_target_07
+  DEP_FILE = CMakeFiles/07.dir/07_类模板对象做函数参数.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/07.dir
+  OBJECT_FILE_DIR = CMakeFiles/07.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07
+
+
+#############################################
+# Link the executable 07
+
+build 07: CXX_EXECUTABLE_LINKER__07_Debug CMakeFiles/07.dir/07_类模板对象做函数参数.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/07.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 07
+  TARGET_PDB = 07.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 25
 
 
@@ -248,6 +837,37 @@ build 25: CXX_EXECUTABLE_LINKER__25_Debug CMakeFiles/25.dir/25_set初始化.cpp.
   PRE_LINK = :
   TARGET_FILE = 25
   TARGET_PDB = 25.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 42
+
+
+#############################################
+# Order-only phony target for 42
+
+build cmake_object_order_depends_target_42: phony || CMakeFiles/42.dir
+
+build CMakeFiles/42.dir/42_查找算法-count_if.cpp.o: CXX_COMPILER__42_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/42$ 查找算法-count_if.cpp || cmake_object_order_depends_target_42
+  DEP_FILE = CMakeFiles/42.dir/42_查找算法-count_if.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/42.dir
+  OBJECT_FILE_DIR = CMakeFiles/42.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 42
+
+
+#############################################
+# Link the executable 42
+
+build 42: CXX_EXECUTABLE_LINKER__42_Debug CMakeFiles/42.dir/42_查找算法-count_if.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/42.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 42
+  TARGET_PDB = 42.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 04
@@ -281,37 +901,6 @@ build 04: CXX_EXECUTABLE_LINKER__04_Debug CMakeFiles/04.dir/04_特殊数据类�
   TARGET_PDB = 04.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 17
-
-
-#############################################
-# Order-only phony target for 17
-
-build cmake_object_order_depends_target_17: phony || CMakeFiles/17.dir
-
-build CMakeFiles/17.dir/17_deque初始化.cpp.o: CXX_COMPILER__17_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/17$ deque初始化.cpp || cmake_object_order_depends_target_17
-  DEP_FILE = CMakeFiles/17.dir/17_deque初始化.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/17.dir
-  OBJECT_FILE_DIR = CMakeFiles/17.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 17
-
-
-#############################################
-# Link the executable 17
-
-build 17: CXX_EXECUTABLE_LINKER__17_Debug CMakeFiles/17.dir/17_deque初始化.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/17.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 17
-  TARGET_PDB = 17.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target 16
 
 
@@ -343,35 +932,35 @@ build 16: CXX_EXECUTABLE_LINKER__16_Debug CMakeFiles/16.dir/16_vector容量互�
   TARGET_PDB = 16.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 22
+# Object build statements for EXECUTABLE target 08
 
 
 #############################################
-# Order-only phony target for 22
+# Order-only phony target for 08
 
-build cmake_object_order_depends_target_22: phony || CMakeFiles/22.dir
+build cmake_object_order_depends_target_08: phony || CMakeFiles/08.dir
 
-build CMakeFiles/22.dir/22_list赋值.cpp.o: CXX_COMPILER__22_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/22$ list赋值.cpp || cmake_object_order_depends_target_22
-  DEP_FILE = CMakeFiles/22.dir/22_list赋值.cpp.o.d
+build CMakeFiles/08.dir/08_类模板继承.cpp.o: CXX_COMPILER__08_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/08$ 类模板继承.cpp || cmake_object_order_depends_target_08
+  DEP_FILE = CMakeFiles/08.dir/08_类模板继承.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/22.dir
-  OBJECT_FILE_DIR = CMakeFiles/22.dir
+  OBJECT_DIR = CMakeFiles/08.dir
+  OBJECT_FILE_DIR = CMakeFiles/08.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 22
+# Link build statements for EXECUTABLE target 08
 
 
 #############################################
-# Link the executable 22
+# Link the executable 08
 
-build 22: CXX_EXECUTABLE_LINKER__22_Debug CMakeFiles/22.dir/22_list赋值.cpp.o
+build 08: CXX_EXECUTABLE_LINKER__08_Debug CMakeFiles/08.dir/08_类模板继承.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/22.dir
+  OBJECT_DIR = CMakeFiles/08.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 22
-  TARGET_PDB = 22.dbg
+  TARGET_FILE = 08
+  TARGET_PDB = 08.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 24
@@ -403,6 +992,37 @@ build 24: CXX_EXECUTABLE_LINKER__24_Debug CMakeFiles/24.dir/24_list反转与排�
   PRE_LINK = :
   TARGET_FILE = 24
   TARGET_PDB = 24.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 27
+
+
+#############################################
+# Order-only phony target for 27
+
+build cmake_object_order_depends_target_27: phony || CMakeFiles/27.dir
+
+build CMakeFiles/27.dir/27_set排序规则.cpp.o: CXX_COMPILER__27_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/27$ set排序规则.cpp || cmake_object_order_depends_target_27
+  DEP_FILE = CMakeFiles/27.dir/27_set排序规则.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/27.dir
+  OBJECT_FILE_DIR = CMakeFiles/27.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 27
+
+
+#############################################
+# Link the executable 27
+
+build 27: CXX_EXECUTABLE_LINKER__27_Debug CMakeFiles/27.dir/27_set排序规则.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/27.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 27
+  TARGET_PDB = 27.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 21
@@ -498,37 +1118,6 @@ build 14: CXX_EXECUTABLE_LINKER__14_Debug CMakeFiles/14.dir/14_vector赋值.cpp.
   TARGET_PDB = 14.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 08
-
-
-#############################################
-# Order-only phony target for 08
-
-build cmake_object_order_depends_target_08: phony || CMakeFiles/08.dir
-
-build CMakeFiles/08.dir/08_类模板继承.cpp.o: CXX_COMPILER__08_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/08$ 类模板继承.cpp || cmake_object_order_depends_target_08
-  DEP_FILE = CMakeFiles/08.dir/08_类模板继承.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/08.dir
-  OBJECT_FILE_DIR = CMakeFiles/08.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 08
-
-
-#############################################
-# Link the executable 08
-
-build 08: CXX_EXECUTABLE_LINKER__08_Debug CMakeFiles/08.dir/08_类模板继承.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/08.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 08
-  TARGET_PDB = 08.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target 19
 
 
@@ -558,6 +1147,37 @@ build 19: CXX_EXECUTABLE_LINKER__19_Debug CMakeFiles/19.dir/19_stack常用接口
   PRE_LINK = :
   TARGET_FILE = 19
   TARGET_PDB = 19.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 48
+
+
+#############################################
+# Order-only phony target for 48
+
+build cmake_object_order_depends_target_48: phony || CMakeFiles/48.dir
+
+build CMakeFiles/48.dir/48_算数算法.cpp.o: CXX_COMPILER__48_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/48$ 算数算法.cpp || cmake_object_order_depends_target_48
+  DEP_FILE = CMakeFiles/48.dir/48_算数算法.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/48.dir
+  OBJECT_FILE_DIR = CMakeFiles/48.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 48
+
+
+#############################################
+# Link the executable 48
+
+build 48: CXX_EXECUTABLE_LINKER__48_Debug CMakeFiles/48.dir/48_算数算法.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/48.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 48
+  TARGET_PDB = 48.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 11
@@ -653,66 +1273,35 @@ build 01: CXX_EXECUTABLE_LINKER__01_Debug CMakeFiles/01.dir/01_模板基本语�
   TARGET_PDB = 01.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 15
+# Object build statements for EXECUTABLE target 38
 
 
 #############################################
-# Order-only phony target for 15
+# Order-only phony target for 38
 
-build cmake_object_order_depends_target_15: phony || CMakeFiles/15.dir
+build cmake_object_order_depends_target_38: phony || CMakeFiles/38.dir
 
-build CMakeFiles/15.dir/15_vector容量管理.cpp.o: CXX_COMPILER__15_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/15$ vector容量管理.cpp || cmake_object_order_depends_target_15
-  DEP_FILE = CMakeFiles/15.dir/15_vector容量管理.cpp.o.d
+build CMakeFiles/38.dir/38_查找算法-find_if.cpp.o: CXX_COMPILER__38_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/38$ 查找算法-find_if.cpp || cmake_object_order_depends_target_38
+  DEP_FILE = CMakeFiles/38.dir/38_查找算法-find_if.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/15.dir
-  OBJECT_FILE_DIR = CMakeFiles/15.dir
+  OBJECT_DIR = CMakeFiles/38.dir
+  OBJECT_FILE_DIR = CMakeFiles/38.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 15
+# Link build statements for EXECUTABLE target 38
 
 
 #############################################
-# Link the executable 15
+# Link the executable 38
 
-build 15: CXX_EXECUTABLE_LINKER__15_Debug CMakeFiles/15.dir/15_vector容量管理.cpp.o
+build 38: CXX_EXECUTABLE_LINKER__38_Debug CMakeFiles/38.dir/38_查找算法-find_if.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/15.dir
+  OBJECT_DIR = CMakeFiles/38.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 15
-  TARGET_PDB = 15.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 10
-
-
-#############################################
-# Order-only phony target for 10
-
-build cmake_object_order_depends_target_10: phony || CMakeFiles/10.dir
-
-build CMakeFiles/10.dir/10_person.cpp.o: CXX_COMPILER__10_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/10$ person.cpp || cmake_object_order_depends_target_10
-  DEP_FILE = CMakeFiles/10.dir/10_person.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/10.dir
-  OBJECT_FILE_DIR = CMakeFiles/10.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 10
-
-
-#############################################
-# Link the executable 10
-
-build 10: CXX_EXECUTABLE_LINKER__10_Debug CMakeFiles/10.dir/10_person.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/10.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10
-  TARGET_PDB = 10.dbg
+  TARGET_FILE = 38
+  TARGET_PDB = 38.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 23
@@ -808,68 +1397,6 @@ build 20: CXX_EXECUTABLE_LINKER__20_Debug CMakeFiles/20.dir/20_queue常用接口
   TARGET_PDB = 20.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 07
-
-
-#############################################
-# Order-only phony target for 07
-
-build cmake_object_order_depends_target_07: phony || CMakeFiles/07.dir
-
-build CMakeFiles/07.dir/07_类模板对象做函数参数.cpp.o: CXX_COMPILER__07_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/07$ 类模板对象做函数参数.cpp || cmake_object_order_depends_target_07
-  DEP_FILE = CMakeFiles/07.dir/07_类模板对象做函数参数.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/07.dir
-  OBJECT_FILE_DIR = CMakeFiles/07.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 07
-
-
-#############################################
-# Link the executable 07
-
-build 07: CXX_EXECUTABLE_LINKER__07_Debug CMakeFiles/07.dir/07_类模板对象做函数参数.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/07.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 07
-  TARGET_PDB = 07.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 27
-
-
-#############################################
-# Order-only phony target for 27
-
-build cmake_object_order_depends_target_27: phony || CMakeFiles/27.dir
-
-build CMakeFiles/27.dir/27_set排序规则.cpp.o: CXX_COMPILER__27_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/27$ set排序规则.cpp || cmake_object_order_depends_target_27
-  DEP_FILE = CMakeFiles/27.dir/27_set排序规则.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/27.dir
-  OBJECT_FILE_DIR = CMakeFiles/27.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 27
-
-
-#############################################
-# Link the executable 27
-
-build 27: CXX_EXECUTABLE_LINKER__27_Debug CMakeFiles/27.dir/27_set排序规则.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/27.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 27
-  TARGET_PDB = 27.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target 06
 
 
@@ -963,6 +1490,37 @@ build 03: CXX_EXECUTABLE_LINKER__03_Debug CMakeFiles/03.dir/03_模板函数调�
   TARGET_PDB = 03.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 37
+
+
+#############################################
+# Order-only phony target for 37
+
+build cmake_object_order_depends_target_37: phony || CMakeFiles/37.dir
+
+build CMakeFiles/37.dir/37_查找算法-find.cpp.o: CXX_COMPILER__37_Debug /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/37$ 查找算法-find.cpp || cmake_object_order_depends_target_37
+  DEP_FILE = CMakeFiles/37.dir/37_查找算法-find.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/37.dir
+  OBJECT_FILE_DIR = CMakeFiles/37.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 37
+
+
+#############################################
+# Link the executable 37
+
+build 37: CXX_EXECUTABLE_LINKER__37_Debug CMakeFiles/37.dir/37_查找算法-find.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/37.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 37
+  TARGET_PDB = 37.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 02
 
 
@@ -1035,7 +1593,7 @@ build 09: CXX_EXECUTABLE_LINKER__09_Debug CMakeFiles/09.dir/09_类模板成员�
 #############################################
 # Folder: /Users/jacoblee/Documents/CLionProjects/C++Learning/04-STL/cmake-build-debug
 
-build all: phony 31 30 29 26 28 25 04 17 16 22 24 21 18 14 08 19 11 13 01 15 10 23 12 20 07 27 06 05 03 02 09
+build all: phony 49 45 15 40 46 44 39 29 43 26 41 17 35 47 34 36 22 33 32 31 30 10 28 07 25 42 04 16 08 24 27 21 18 14 19 48 11 13 01 38 23 12 20 06 05 03 37 02 09
 
 # =============================================================================
 # Built-in targets
